@@ -15,6 +15,8 @@ unmanagedSourceDirectories in Compile += {
   }
 }
 
+scalacOptions in Compile += "-deprecation"
+
 /*
 scalacOptions ++= (CrossVersion.partialVersion(scalaVersion.value) match {
   case Some((2, n)) if n >= 13 => Seq("-Xsource:2.14")

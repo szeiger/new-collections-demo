@@ -6,5 +6,7 @@ object Test extends App {
 
   def f(xs: Int*) = println(xs.getClass)
   f(1,2,3)
-}
 
+  def seq(s: Seq[Int]): Unit = ()
+  seq(Array(1,2,3))
+}
